@@ -1,0 +1,50 @@
+This is a list of standardized variable names used throughout the functions and 
+demos.
+
+
+Scalars.
+Q - Cardinality of faces set in a graph.
+K - Dummy constant.
+N - Cardinality of node set in a graph.
+M - Cardinality of edge set in a graph.
+P - Number of coordinate dimensions of a node set.
+scale - The weighting function parameter.
+stop - The recursion stop parameter.
+X/Y/Z - Dimensions of an image or region (e.g., [X Y Z]=size(img)).
+
+Matrices.
+A - The NxN adjacency matrix.
+D - The NxN diagonal matrix of node degrees.
+img - The current image.
+L - The NxN Laplacian matrix.   
+R - The MxN edge-node incidence matrix.
+
+Vectors.
+d - The Nx1 vector of node degrees.
+vals - The NxK vector of K-dimensional nodal values (e.g., RGB, with K=3).
+weights - The Mx1 vector of edge weights.
+
+Graph components.
+points - An NxP list of node coordinates.
+edges - An Mx2 list of edges (containing indices to the node set).
+faces - A QxK list of polygonal faces with order <= K.
+
+Structs.
+imgGraph - Struct containing the filters for importing an image to a space-variant
+                graph.
+        imgGraph.pntMap - A Kx2 list of the K points in the image plane used to
+                filter an image for importing.
+        imgGraph.breakpoints - A 1xN list of the breakpoints in imgGraph.pntMap
+                referring to the points corresponding to different nodes.
+        imgGraph.filtWeights - A Kx2 list of the filter weights for each of the K
+                points in imgGraph.pntMap.
+voronoiStruct - Struct containing the information necessary to perform
+                Voronoi visualization on a space-variant image.
+        voronoiStruct.pts - Kx2 list of coordinates for the vertices of
+                the Voronoi cells for the node set, where K > N.
+        voronoiStruct.index - List of nodes that are represented in the
+                visualization (i.e., nodes with a Voronoi cell within the convex
+                hull of the node set).
+        voronoiStruct.faces - List of faces representing the Voronoi cells, to be
+                used by patch.m.
+
