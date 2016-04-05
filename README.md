@@ -26,15 +26,8 @@ year = {2015}
 ```
 
 * This code uses some graph functions in the [Graph Analysis Toolbox] (http://eslab.bu.edu/software/graphanalysis/).
-* We use the Graz data set for depth super-resolution. Please cite the paper shown below, if you use this dataset.
+* We use the Graz data set [2] for depth super-resolution. 
 
-```
-@inproceedings{ferstl2013b, 
-author = {David Ferstl and Christian Reinbacher and Rene Ranftl and Matthias Ruether and Horst Bischof}, 
-title = {Image Guided Depth Upsampling using Anisotropic Total Generalized Variation}, 
-booktitle = {Proceedings International Conference on Computer Vision (ICCV), IEEE},
-year = {2013}
-} 
-```
 
 [1] B. Ham, M. Cho, and J. Ponce, "Robust Image Filtering using Joint Static and Dynamic Guidance", *IEEE Conference on Computer Vision and Pattern Recognition* (CVPR), 2015.
+[2] D. Ferstl, C. Reinbacher, R. Ranftl, M. Ru ̈ther, and H. Bischof ,"Image Guided Depth Upsampling using Anisotropic Total Generalized Variation", *IEEE Conference on International Conference on Computer Vision* (ICCV), 2013.
