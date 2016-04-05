@@ -8,7 +8,7 @@ This code is written in MATLAB, and implements the SD filter [1].
 
 # Usage:
   - Run `runSDF_scale_space.m` for scale-space filtering
-  - Run `runSDF_depthsr.m` for depth super-resolution
+  - Run `runSDF_depthsr.m` for depth upsampling
   
 ## Notes:
   * The bandwidth parameters, $\mu$ and $\nu$, and the regularization parameter, $\lambda$, are set to different values due to the normalization.
@@ -26,7 +26,7 @@ year = {2015}
 ```
 
 * This code uses some graph functions in the [Graph Analysis Toolbox] (http://eslab.bu.edu/software/graphanalysis/).
-* We use the Graz data set [2] for depth super-resolution. 
+* We use the Graz data set [2] for depth upsampling. 
 
 
 [1] B. Ham, M. Cho, and J. Ponce, "Robust Image Filtering using Joint Static and Dynamic Guidance", *IEEE Conference on Computer Vision and Pattern Recognition* (CVPR), 2015.
