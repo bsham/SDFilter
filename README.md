@@ -30,4 +30,5 @@ year = {2015}
 
 
 [1] B. Ham, M. Cho, and J. Ponce, "Robust Image Filtering using Joint Static and Dynamic Guidance", *IEEE Conference on Computer Vision and Pattern Recognition* (CVPR), 2015.
+
 [2] D. Ferstl, C. Reinbacher, R. Ranftl, M. Ru ̈ther, and H. Bischof ,"Image Guided Depth Upsampling using Anisotropic Total Generalized Variation", *IEEE Conference on International Conference on Computer Vision* (ICCV), 2013.
